@@ -1,0 +1,26 @@
+{
+    "name": "kudashevs/codewars",
+    "version": "0.0.1",
+    "description": "A collection of PHP Codewars katas.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Kudashev",
+            "email": "kudashevs@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Katas\\": "katas/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Katas\\Tests\\": "tests/"
+        }
+    }
+}
