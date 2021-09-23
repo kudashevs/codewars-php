@@ -19,7 +19,10 @@
     "autoload": {
         "psr-4": {
             "Katas\\": "katas/"
-        }
+        },
+        "files": [
+            "katas/include_solutions.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
