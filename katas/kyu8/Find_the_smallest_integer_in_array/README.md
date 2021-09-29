@@ -1,8 +1,10 @@
-# [Twice as old](https://www.codewars.com/kata/5b853229cfde412a470000d0/)
+# [Find the smallest integer in the array](https://www.codewars.com/kata/55a2d7ebe362935a210000b2/)
 
-Your function takes two arguments:
+Given an array of integers your solution should find the smallest integer.
 
-1. current father's age (years)
-2. current age of his son (years)
+For example:
 
-Calculate how many years ago the father was twice as old as his son (or in how many years he will be twice as old).
+    Given [34, 15, 88, 2] your solution will return 2
+    Given [34, -345, -1, 100] your solution will return -345
+
+You can assume, for the purpose of this kata, that the supplied array will not be empty.
