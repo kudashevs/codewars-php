@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Katas\Tests\kyu8\Reversed_Words;
+namespace Katas\Tests\kyu8\Reversed_words;
 
 use PHPUnit\Framework\TestCase;
 use function Katas\kyu8\Reversed_Words\reverseWords;

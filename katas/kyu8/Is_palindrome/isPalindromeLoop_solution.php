@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Katas\kyu8\Is_Palindrome;
+namespace Katas\kyu8\Is_palindrome;
 
 function isPalindromeLoop($str)
 {

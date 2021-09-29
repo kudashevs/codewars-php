@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Katas\Tests\kyu8\Is_Palindrome;
+namespace Katas\Tests\kyu8\Is_palindrome;
 
 use PHPUnit\Framework\TestCase;
 use function Katas\kyu8\Is_Palindrome\isPalindromeReverse;
