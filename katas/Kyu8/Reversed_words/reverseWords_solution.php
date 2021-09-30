@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Katas\kyu8\Reversed_words;
+namespace Katas\Kyu8\Reversed_words;
 
 function reverseWords($str)
 {

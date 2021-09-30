@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Katas\Tests\kyu8\Remove_first_last_character;
+namespace Katas\Tests\Kyu8\Remove_first_last_character;
 
 use PHPUnit\Framework\TestCase;
-use function Katas\kyu8\Remove_first_last_character\removeChar as remove_char;
+use function Katas\Kyu8\Remove_first_last_character\removeChar as remove_char;
 
 class RemoveCharTest extends TestCase
 {

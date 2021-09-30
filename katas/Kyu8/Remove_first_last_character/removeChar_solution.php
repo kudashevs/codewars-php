@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Katas\kyu8\Remove_first_last_character;
+namespace Katas\Kyu8\Remove_first_last_character;
 
 function removeChar(string $s): string
 {

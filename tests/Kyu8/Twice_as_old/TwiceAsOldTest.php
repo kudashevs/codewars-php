@@ -1,9 +1,9 @@
 <?php
 
-namespace Katas\Tests\kyu8\Twice_as_old;
+namespace Katas\Tests\Kyu8\Twice_as_old;
 
 use PHPUnit\Framework\TestCase;
-use function Katas\kyu8\Twice_as_old\twice_as_old;
+use function Katas\Kyu8\Twice_as_old\twice_as_old;
 
 class TwiceAsOldTest extends TestCase
 {
