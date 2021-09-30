@@ -3,19 +3,19 @@
 namespace Katas\Tests\Kyu8\Is_palindrome;
 
 use PHPUnit\Framework\TestCase;
-use function Katas\Kyu8\Is_Palindrome\isPalindromeLoop;
+use function Katas\Kyu8\Is_Palindrome\isPalindromeLoop as isPalindrome;
 
 class IsPalindromeLoopTest extends TestCase
 {
     public function testFixedTests()
     {
-        $this->assertEquals(true, isPalindromeLoop("a"));
-        $this->assertEquals(true, isPalindromeLoop("aba"));
-        $this->assertEquals(true, isPalindromeLoop("Abba"));
-        $this->assertEquals(false, isPalindromeLoop("hello"));
-        $this->assertEquals(true, isPalindromeLoop("Bob"));
-        $this->assertEquals(true, isPalindromeLoop("Madam"));
-        $this->assertEquals(true, isPalindromeLoop("AbBa"));
-        $this->assertEquals(true, isPalindromeLoop(""));
+        $this->assertEquals(true, isPalindrome("a"));
+        $this->assertEquals(true, isPalindrome("aba"));
+        $this->assertEquals(true, isPalindrome("Abba"));
+        $this->assertEquals(false, isPalindrome("hello"));
+        $this->assertEquals(true, isPalindrome("Bob"));
+        $this->assertEquals(true, isPalindrome("Madam"));
+        $this->assertEquals(true, isPalindrome("AbBa"));
+        $this->assertEquals(true, isPalindrome(""));
     }
 }
