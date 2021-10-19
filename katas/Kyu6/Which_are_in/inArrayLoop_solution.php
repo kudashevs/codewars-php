@@ -2,7 +2,7 @@
 
 namespace Katas\Kyu6\Which_are_in;
 
-function inArray($array1, $array2)
+function inArrayLoop($array1, $array2)
 {
     return call_user_func(
         function ($array) {

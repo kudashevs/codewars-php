@@ -3,9 +3,9 @@
 namespace Katas\Tests\Kyu6\Which_are_in;
 
 use PHPUnit\Framework\TestCase;
-use function Katas\Kyu6\Which_are_in\inArray;
+use function Katas\Kyu6\Which_are_in\inArrayLoop as inArray;
 
-class InArrayTest extends TestCase
+class InArrayLoopTest extends TestCase
 {
     private function revTest($actual, $expected)
     {
